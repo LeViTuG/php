@@ -1,0 +1,10 @@
+i.pe-7s-angle-down{
+    
+  font-size: 20px; 
+  font-weight: 700;
+}
+.menu-style-2.handicraft-menu nav > ul > li:hover a i{
+    -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg);
+  transition: all .3s;
+}
