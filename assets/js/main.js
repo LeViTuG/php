@@ -85,7 +85,7 @@
     /* arrival active */
     $('.arrival-active').owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
         nav: false,
         margin: 40,
@@ -206,9 +206,10 @@
     $('.brand-logo-active3').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
-        autoplayTimeout: 5000,
+        autoplay: true,
+        autoplayTimeout: 2000,
         item: 6,
+        autoplayHoverPause:true,
         responsive: {
             0: {
                 items: 1
@@ -305,8 +306,11 @@
     $('.smart-watch-product-active').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
-        autoplayTimeout: 5000,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause:true,
+        animateOut: 'fadeOutRightBig',
+        // animateIn: 'flipInX',
         item: 3,
         margin: 75,
         responsive: {
@@ -432,8 +436,9 @@
     $('.feadback-silder-active').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
+        autoplayHoverPause:true,
         item: 3,
         margin: 50,
         responsive: {
